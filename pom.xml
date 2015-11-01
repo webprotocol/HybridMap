@@ -16,6 +16,13 @@
           <systemPath>${env.ANDROID_HOME}/platforms/android-22/android.jar</systemPath>
 	</dependency>
 	<dependency>
+          <groupId>com.google.android</groupId>
+          <artifactId>google-play-services</artifactId>
+          <version>6.1</version>
+          <scope>system</scope>
+          <systemPath>${env.ANDROID_HOME}/platforms/android-22/google-play-services.jar</systemPath>
+	</dependency>
+	<dependency>
 		<groupId>google-play-services_lib</groupId>
 		<artifactId>google-play-services_lib</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
